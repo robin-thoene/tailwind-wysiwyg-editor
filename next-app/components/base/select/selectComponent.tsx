@@ -1,5 +1,5 @@
 import { Listbox, Transition } from '@headlessui/react';
-import { ChevronUpDownIcon } from '@heroicons/react/20/solid';
+import { ChevronUpDownIcon } from '@heroicons/react/24/solid';
 import { CheckCircleIcon } from '@heroicons/react/24/solid';
 import React, { Fragment, FunctionComponent, ReactElement, useCallback } from 'react';
 
