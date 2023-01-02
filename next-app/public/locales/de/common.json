@@ -1,0 +1,19 @@
+{
+    "en": "English",
+    "de": "Deutsch",
+    "languageButtonEnAriaLabel": "Switch to English",
+    "languageButtonDeAriaLabel": "Umschalten auf Deutsch",
+    "darkModeToggleAriaLabel": "Wechseln zwischen hellem und dunklem Design",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "submitSearchAriaLabel": "Suche ausführen.",
+    "clearSearchAriaLabel": "Suche zurückzsetzen.",
+    "editorParagraph": "Absatz",
+    "editorHeadline1": "Überschrift 1",
+    "editorHeadline2": "Überschrift 2",
+    "editorHeadline3": "Überschrift 3",
+    "addLinkDialogTitle": "Link einfügen",
+    "addLinkDialogConfirmText": "Link hinzufügen",
+    "editorHeadline": "Editor",
+    "markdownPreviewHeadline": "Erstelltes Markdown"
+}

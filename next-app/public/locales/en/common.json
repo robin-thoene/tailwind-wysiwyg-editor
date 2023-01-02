@@ -1,0 +1,19 @@
+{
+    "en": "English",
+    "de": "Deutsch",
+    "languageButtonEnAriaLabel": "Switch to English",
+    "languageButtonDeAriaLabel": "Umschalten auf Deutsch",
+    "darkModeToggleAriaLabel": "Toggle between light and dark mode",
+    "close": "Close",
+    "confirm": "Confirm",
+    "submitSearchAriaLabel": "Run search.",
+    "clearSearchAriaLabel": "Reset search.",
+    "editorParagraph": "Paragraph",
+    "editorHeadline1": "Headline 1",
+    "editorHeadline2": "Headline 2",
+    "editorHeadline3": "Headline 3",
+    "addLinkDialogTitle": "Insert Link",
+    "addLinkDialogConfirmText": "Add Link",
+    "editorHeadline": "Editor",
+    "markdownPreviewHeadline": "Generated Markdown"
+}

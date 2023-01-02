@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#__next {
+    @apply p-0 m-0 min-w-full w-full min-h-screen max-w-full overflow-hidden;
+}
+
+#__next {
+    @apply flex flex-col overflow-hidden;
+}
+
+h1 {
+    @apply text-5xl font-medium my-4;
+}
+
+h2 {
+    @apply text-3xl font-medium my-4;
+}
+
+h3 {
+    @apply text-xl font-medium my-4;
+}
+
+p {
+    @apply my-4;
+}
+
+ul {
+    @apply list-disc ml-6;
+}
+
+ol {
+    @apply list-decimal ml-6;
+}
+
+ol > ol {
+    @apply ml-6;
+}
+
+ul > ul {
+    @apply ml-6;
+}
+
+ul > ol {
+    @apply ml-6;
+}
+
+ol > ul {
+    @apply ml-6;
+}
+
+.btn {
+    @apply no-animation active:opacity-70;
+}
+
+.btn:active:hover,
+.btn:active:focus {
+    @apply transform-none;
+}
+
+.input:focus {
+    @apply outline-none;
+}
+
+.file-input:focus {
+    @apply outline-none;
+}
