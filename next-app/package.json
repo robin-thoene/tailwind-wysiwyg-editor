@@ -19,7 +19,6 @@
         "draft-js": "^0.11.7",
         "draft-js-export-html": "^1.4.1",
         "draft-js-import-html": "^1.4.1",
-        "easy-peasy": "^5.0.4",
         "eslint-plugin-jsdoc": "^39.3.3",
         "markdown-draft-js": "^2.4.0",
         "next": "13.0.4",

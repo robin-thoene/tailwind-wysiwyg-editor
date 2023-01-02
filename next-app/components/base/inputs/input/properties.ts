@@ -1,4 +1,4 @@
-import { InputType } from '../../../../enumerations';
+import { InputType } from './enumerations';
 
 /**
  * Properties for a single input.
