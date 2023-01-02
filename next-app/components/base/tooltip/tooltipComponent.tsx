@@ -10,7 +10,11 @@ import { ITooltipProps } from './properties';
  */
 const Tooltip: FunctionComponent<ITooltipProps> = (props): ReactElement => {
     return (
-        <div className="tooltip tooltip-bottom w-max" data-tip={props.text}>
+        <div
+            className={`tooltip w-max ${
+                props.direction === 'Left' ? 'tooltip-left' : props.direction === 'Right' ? 'tooltip-right' : props.direction === 'Bottom' ? 'tooltip-bottom' : 'tooltip-top'
+            }`}
+            data-tip={props.text}>
             {props.children}
         </div>
     );

@@ -285,7 +285,7 @@ const TextEditor: FunctionComponent<ITextEditorProps> = (props) => {
                 </div>
                 <div className="mr-6 flex min-w-max">
                     <div className="mr-2">
-                        <Tooltip text="Ctrl + B / CMD + B">
+                        <Tooltip direction="Bottom" text="Ctrl + B / CMD + B">
                             <IconButton
                                 additionalClassNames={`${isBoldActive ? 'bg-base-200' : ''}`}
                                 icon={<FontAwesomeIcon icon={faBold} className="h-5 w-5" />}
@@ -296,7 +296,7 @@ const TextEditor: FunctionComponent<ITextEditorProps> = (props) => {
                         </Tooltip>
                     </div>
                     <div className="mr-2">
-                        <Tooltip text="Ctrl + I / CMD + I">
+                        <Tooltip direction="Bottom" text="Ctrl + I / CMD + I">
                             <IconButton
                                 additionalClassNames={`${isItalicActive ? 'bg-base-200' : ''}`}
                                 icon={<FontAwesomeIcon icon={faItalic} className="h-5 w-5" />}
@@ -307,7 +307,7 @@ const TextEditor: FunctionComponent<ITextEditorProps> = (props) => {
                         </Tooltip>
                     </div>
                     <div className="mr-2">
-                        <Tooltip text="Ctrl + U / CMD + U">
+                        <Tooltip direction="Bottom" text="Ctrl + U / CMD + U">
                             <IconButton
                                 additionalClassNames={`${isUnderlineActive ? 'bg-base-200' : ''}`}
                                 icon={<FontAwesomeIcon icon={faUnderline} className="h-5 w-5" />}
@@ -399,7 +399,7 @@ const TextEditor: FunctionComponent<ITextEditorProps> = (props) => {
                 </div>
                 <div className="mr-6 flex min-w-max">
                     <div className="mr-2">
-                        <Tooltip text="Ctrl + Z / CMD + Z">
+                        <Tooltip direction="Bottom" text="Ctrl + Z / CMD + Z">
                             <IconButton
                                 icon={<ArrowUturnLeftIcon className="h5 w-5" />}
                                 onClick={() => {
@@ -408,7 +408,7 @@ const TextEditor: FunctionComponent<ITextEditorProps> = (props) => {
                             />
                         </Tooltip>
                     </div>
-                    <Tooltip text="Ctrl + Y / CMD + Shift + Z">
+                    <Tooltip direction="Bottom" text="Ctrl + Y / CMD + Shift + Z">
                         <IconButton
                             icon={<ArrowUturnRightIcon className="h5 w-5" />}
                             onClick={() => {
