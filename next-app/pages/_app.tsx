@@ -1,13 +1,11 @@
 import '../styles/globals.css';
 
-import { StoreProvider } from 'easy-peasy';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { appWithTranslation } from 'next-i18next';
 import React, { FunctionComponent, ReactElement } from 'react';
 
 import BasicLayout from '../components/base/layout/basicLayout';
-import { Store } from '../store/store';
 
 /**
  * Part of the custom HTML Head
@@ -30,12 +28,12 @@ const CustomHead: FunctionComponent = (): ReactElement => {
  */
 const App: FunctionComponent<AppProps> = ({ Component, pageProps }: AppProps): ReactElement => {
     return (
-        <StoreProvider store={Store}>
+        <>
             <CustomHead />
             <BasicLayout>
                 <Component {...pageProps} />
             </BasicLayout>
-        </StoreProvider>
+        </>
     );
 };
 

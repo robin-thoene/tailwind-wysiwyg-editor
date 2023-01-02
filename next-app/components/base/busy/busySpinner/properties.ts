@@ -1,4 +1,4 @@
-import { BusySpinnerSize } from '../../../../enumerations';
+import { BusySpinnerSize } from './enumerations';
 
 /**
  * Properties of the busy spinner component.
