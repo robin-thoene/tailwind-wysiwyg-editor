@@ -33,7 +33,8 @@ const Select: FunctionComponent<ISelectProps> = (props): ReactElement => {
                                 <Listbox.Option
                                     key={option.value}
                                     className={({ active }) => `${active ? 'text-white bg-secondary' : ''} relative cursor-pointer select-none py-2 pl-3 pr-9 list-none`}
-                                    value={option}>
+                                    value={option}
+                                >
                                     {({ selected, active }) => (
                                         <>
                                             <div className="flex items-center">
@@ -67,7 +68,8 @@ const Select: FunctionComponent<ISelectProps> = (props): ReactElement => {
             ) : (
                 <Listbox
                     value={props.selectedOptions && props.selectedOptions.length === 1 ? props.selectedOptions[0] : null}
-                    onChange={(selectedItem: IOption) => props.onChange([selectedItem])}>
+                    onChange={(selectedItem: IOption) => props.onChange([selectedItem])}
+                >
                     {({ open }) => menu(open, props.selectedOptions && props.selectedOptions.length === 1 ? props.selectedOptions[0].value : '')}
                 </Listbox>
             )}

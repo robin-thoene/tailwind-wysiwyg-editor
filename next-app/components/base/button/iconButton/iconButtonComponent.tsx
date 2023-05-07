@@ -15,7 +15,8 @@ const IconButton: FunctionComponent<IIconButtonProps> = (props): ReactElement =>
             aria-label={props.ariaLabel}
             className={`btn btn-ghost p-3 flex min-h-full max-h-max h-max w-max ${props.additionalClassNames ? props.additionalClassNames : ''}`}
             onClick={props.onClick}
-            disabled={props.disabled || props.isBusy}>
+            disabled={props.disabled || props.isBusy}
+        >
             {props.isBusy ? <BusySpinner /> : props.icon}
         </button>
     );

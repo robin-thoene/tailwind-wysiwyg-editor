@@ -15,7 +15,8 @@ const PrimaryButton: FunctionComponent<IPrimaryButtonProps> = (props): ReactElem
             aria-label={props.ariaLabel}
             className={`btn ${props.outlined ? 'btn-outline' : ''} ${props.isDangerous ? 'btn-error' : 'btn-primary'} ${props.fullWidth ? 'w-full' : 'w-max'}`}
             onClick={props.onClick}
-            disabled={props.disabled || props.isBusy}>
+            disabled={props.disabled || props.isBusy}
+        >
             <div className="flex justify-center items-center gap-2">
                 {props.isBusy && <BusySpinner />}
                 {props.text}
