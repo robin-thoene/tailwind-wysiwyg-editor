@@ -1,3 +1,3 @@
-import NavigationTop from "./navigationTopComponent";
+import NavigationTop from './navigationTopComponent';
 
 export default NavigationTop;

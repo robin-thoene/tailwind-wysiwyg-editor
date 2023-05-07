@@ -14,7 +14,8 @@ const Tooltip: FunctionComponent<ITooltipProps> = (props): ReactElement => {
             className={`tooltip w-max ${
                 props.direction === 'Left' ? 'tooltip-left' : props.direction === 'Right' ? 'tooltip-right' : props.direction === 'Bottom' ? 'tooltip-bottom' : 'tooltip-top'
             }`}
-            data-tip={props.text}>
+            data-tip={props.text}
+        >
             {props.children}
         </div>
     );

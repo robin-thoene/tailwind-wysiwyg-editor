@@ -34,8 +34,8 @@ const TextEditor: FunctionComponent<ITextEditorProps> = (props) => {
         props.initialContent && props.contentType === 'markdown'
             ? getEditorStateFromMarkdown(props.initialContent)
             : props.initialContent && props.contentType === 'html'
-                ? getEditorStateFromHtml(props.initialContent)
-                : EditorState.createEmpty(),
+            ? getEditorStateFromHtml(props.initialContent)
+            : EditorState.createEmpty(),
     );
 
     /** The currently selected heading type. */
@@ -259,7 +259,7 @@ const TextEditor: FunctionComponent<ITextEditorProps> = (props) => {
             <Dialog
                 isOpen={isUrlInputVisible}
                 title={t('addLinkDialogTitle')}
-                confirmText={t('addLinkDialogConfirmText')}
+                confirmText={t('addLinkDialogConfirmText') ?? undefined}
                 onConfirm={() => {
                     addLink(editorState, setEditorState, urlValue);
                     setIsUrlInputVisible(false);
@@ -269,7 +269,8 @@ const TextEditor: FunctionComponent<ITextEditorProps> = (props) => {
                 onClose={() => {
                     setIsUrlInputVisible(false);
                     setUrlValue('');
-                }}>
+                }}
+            >
                 <Input
                     value={urlValue}
                     onChange={(newValue) => {
