@@ -5,7 +5,6 @@ import LanguageSelector from '../../languageSelector';
 
 /**
  * Basic top navigation to display the logo.
- *
  * @returns {ReactElement} The top navigation component.
  */
 const NavigationTop: FunctionComponent = (): ReactElement => {

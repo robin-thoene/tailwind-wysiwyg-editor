@@ -33,7 +33,6 @@ const markdownToDraftOptions: MarkdownToDraftOptions = {
 
 /**
  * Find all entities in the editor that are links.
- *
  * @param {ContentBlock} block The targeted block.
  * @param {() => void} callback The callback to execute.
  * @param {ContentState} contentState The current content state.
@@ -55,7 +54,6 @@ const decorator = new CompositeDecorator([
 
 /**
  * Convert a given markdown string into a new draft-js editor state.
- *
  * @param {string} markdownString The string representation of a markdown value.
  * @returns {EditorState} The editor state to use for the base draft-js WYSIWYG editor.
  */
@@ -68,7 +66,6 @@ export const getEditorStateFromMarkdown = (markdownString: string): EditorState 
 
 /**
  * Convert a given draft-js editor state into a markdown string.
- *
  * @param {EditorState} editorState The draft-js WYSIWYG editor state.
  * @returns {string} The markdown string representation of the current draft-js WYSIWYG editor state.
  */
@@ -81,7 +78,6 @@ export const exportEditorStateToMarkdownString = (editorState: EditorState): str
 
 /**
  * Convert a given html string into a new draft-js editor state.
- *
  * @param {string} htmlString The string representation of a html value.
  * @returns {EditorState} The editor state to use for the base draft-js WYSIWYG editor.
  */
@@ -93,7 +89,6 @@ export const getEditorStateFromHtml = (htmlString: string): EditorState => {
 
 /**
  * Convert a given draft-js editor state into a markdown string.
- *
  * @param {EditorState} editorState The draft-js WYSIWYG editor state.
  * @returns {string} The html string representation of the current draft-js WYSIWYG editor state.
  */
@@ -105,7 +100,6 @@ export const exportEditorStateToHtmlString = (editorState: EditorState): string 
 
 /**
  * Create and return a new editor state based on given content state.
- *
  * @param {ContentState} contentState The content state to use.
  * @returns {EditorState} The created editor state.
  */
