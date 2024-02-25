@@ -9,7 +9,6 @@ import BasicLayout from '../components/base/layout/basicLayout';
 
 /**
  * Part of the custom HTML Head
- *
  * @returns {ReactElement} Part of the application Head
  */
 const CustomHead: FunctionComponent = (): ReactElement => {
@@ -22,7 +21,6 @@ const CustomHead: FunctionComponent = (): ReactElement => {
 };
 /**
  * The main entry point of the next js application.
- *
  * @param {AppProps} param0 The properties of the app component.
  * @returns {ReactElement} The application component.
  */
