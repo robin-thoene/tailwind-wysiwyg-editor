@@ -5,7 +5,6 @@ import { IDraftLinkProps } from './properties';
 
 /**
  * Custom render component to display links in the draft js editor.
- *
  * @param {IDraftLinkProps} props The draft link properties.
  * @returns {FunctionComponent} The draft link component.
  */
