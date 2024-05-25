@@ -8,7 +8,7 @@ The NextJS code is being templated using the [devdeer.Templates.Solution](https:
 
 ## Testing
 
-To test the editor online open this [LINK](https://editor-v2.robin-thoene.com/)
+To test the editor online open this [LINK](https://tailwind-wysiwyg-editor.vercel.app/)
 
 To test this markdown editor locally on your device, perform the following steps:
 
